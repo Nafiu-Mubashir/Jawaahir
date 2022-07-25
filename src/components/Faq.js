@@ -6,14 +6,14 @@ const Faq = () => {
     return (
         <>
             <Navbar />
-            <section className='bg-light p-5'>
+            <section className='bg-light p-5 mb-3'>
                 <div className='container'>
                     <h6 className='text-warning'>The FAQs</h6>
                     <h4>Help Center</h4>
                     <p>Everything you need to know about the modrasah</p>
                 </div>
             </section>
-            <section className="container p-3">
+            <section className="container p-3 mb-5">
                 {/* <h2 className=''>Have a <span className='text-warning'>Question?</span></h2> */}
                 <h5>Frequently asked questions</h5>
             <div className="accordion" id="accordionPanelsStayOpenExample">
