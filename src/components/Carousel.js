@@ -56,12 +56,12 @@ function Carousel() {
 
                 {/* <!-- Controls --> */}
                 <button className="carousel-control-prev" type="button" data-mdb-target="#carouselMaterialStyle" data-mdb-slide="prev">
-                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span className="visually-hidden">Previous</span>
+                    {/* <span className="carousel-control-prev-icon" aria-hidden="true"></span> */}
+                    {/* <span className="visually-hidden">Previous</span> */}
                 </button>
                 <button className="carousel-control-next" type="button" data-mdb-target="#carouselMaterialStyle" data-mdb-slide="next">
-                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span className="visually-hidden">Next</span>
+                    {/* <span className="carousel-control-next-icon" aria-hidden="true"></span> */}
+                    {/* <span className="visually-hidden">Next</span> */}
                 </button>
             </div>
         </>

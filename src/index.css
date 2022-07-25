@@ -39,12 +39,20 @@ nav {
   background-repeat: no-repeat;
   background-position: center;
 }
-.btn-outline-warning {
+.mask .btn-outline-warning {
   margin-left: 80px;
 }
 .mask {
   margin-top: 400px;
   /* margin-left: 200px !important; */
+}
+.students {
+  background: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)),
+    url("../src/assests/img/second.jpg");
+  height: 45vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 @media (max-width: 687px) {
@@ -79,6 +87,10 @@ nav {
   .mask {
     margin-top: 200px;
   }
+
+  .mask p {
+    font-size: 12px;
+  }
   .row {
     width: 100% !important;
     padding: 2px;
@@ -93,10 +105,23 @@ nav {
   .obj div {
     width: 100% !important;
   }
-  .staff{
+  .objs {
+    margin-top: 5px !important;
+  }
+  .staff {
     flex-direction: column;
   }
-  .w-50{
+  .w-50 {
+    width: 100% !important;
+  }
+  .students p{
+    width: 100%;
+    font-size: 12px;
+  }
+  .students button{
+    width: 100% !important
+  }
+  .contact{
     width: 100% !important;
   }
 }

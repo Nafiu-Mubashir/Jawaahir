@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from "../assests/img/Jawaahir_logo.png"
+import logo from "../assests/img/Jawaahir_logo.png";
 
 function Navbar() {
     return (
@@ -22,10 +22,10 @@ function Navbar() {
             <nav className="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
                 <div className="container">
                     <a className="navbar-brand text-warning" href="/">
-                        <img src={logo} alt="" style={{ width: "40px"}}/>
+                        <img src={logo} alt="JAWAAHIR" style={{ width: "40px"}}/>
                     </a>
                     <button
-                        className="navbar-toggler"
+                        className="navbar-toggler btn-white"
                         type="button"
                         data-mdb-toggle="collapse"
                         data-mdb-target="#navbarNav"
@@ -48,8 +48,7 @@ function Navbar() {
                 </div>
             </nav>
 
-            <a href="#" data-activates="slide-out" class="btn btn-primary p-3 button-collapse"><i
-    class="fas fa-bars"></i></a>
+            <a href="#" data-activates="slide-out" className="btn btn-primary p-3 button-collapse"><i className="fas fa-bars"></i></a>
     
         </>
     )

@@ -21,55 +21,46 @@ const Faq = () => {
                     <h2 className="accordion-header" id="headingOne">
                         <button className="accordion-button text-warning" type="button" data-mdb-toggle="collapse"
                             data-mdb-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                            Accordion Item #1
+                            ‌HOW LONG IS EACH SESSION?
                         </button>
                     </h2>
                     <div id="panelsStayOpen-collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne">
                         <div className="accordion-body">
-                            <strong>This is the first item's accordion body.</strong> It is shown by default,
-                            until the collapse plugin adds the appropriate classNamees that we use to style each
-                            element. These classNamees control the overall appearance, as well as the showing and
-                            hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-                            our default variables. It's also worth noting that just about any HTML can go within
-                            the <code>.accordion-body</code>, though the transition does limit overflow.
+                            <p>
+                            Duration varies depending on the level and course taken. Each class lasts between 45 minutes to 1Hour.
+                            </p>
                         </div>
                     </div>
                 </div>
                 <div className="accordion-item">
                     <h2 className="accordion-header" id="headingTwo">
-                        <button className="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
+                        <button className="accordion-button collapsed text-warning" type="button" data-mdb-toggle="collapse"
                             data-mdb-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
                             aria-controls="panelsStayOpen-collapseTwo">
-                            Accordion Item #2
+                            ‌HOW LONG ARE THE COURSES? Weeks or  months?
                         </button>
                     </h2>
                     <div id="panelsStayOpen-collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo">
                         <div className="accordion-body">
-                            <strong>This is the second item's accordion body.</strong> It is hidden by default,
-                            until the collapse plugin adds the appropriate classNamees that we use to style each
-                            element. These classNamees control the overall appearance, as well as the showing and
-                            hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-                            our default variables. It's also worth noting that just about any HTML can go within
-                            the <code>.accordion-body</code>, though the transition does limit overflow.
+                            <p>
+                            Only Group classes have stipulated period. The Duration for Private classes vary depending on the student and level. Before commencing, The Student can discuss their capability and schedules with Teacher. Thereby, conclude on a stipulated duration to complete.
+                            </p>
                         </div>
                     </div>
                 </div>
                 <div className="accordion-item">
                     <h2 className="accordion-header" id="headingThree">
-                        <button className="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
+                        <button className="accordion-button collapsed text-warning" type="button" data-mdb-toggle="collapse"
                             data-mdb-target="#panelsStayOpen-collapseThree" aria-expanded="false"
                             aria-controls="panelsStayOpen-collapseThree">
-                            Accordion Item #3
+                            ‌WHAT BOOKS DO YOU USE?
                         </button>
                     </h2>
                     <div id="panelsStayOpen-collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree">
                         <div className="accordion-body">
-                            <strong>This is the third item's accordion body.</strong> It is hidden by default,
-                            until the collapse plugin adds the appropriate classNamees that we use to style each
-                            element. These classNamees control the overall appearance, as well as the showing and
-                            hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-                            our default variables. It's also worth noting that just about any HTML can go within
-                            the <code>.accordion-body</code>, though the transition does limit overflow.
+                            <p>
+                            Books vary depending on the course. Students will be informed of needed books in advance before commencing their course.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -78,17 +69,68 @@ const Faq = () => {
                         <button className="accordion-button text-warning collapsed" type="button" data-mdb-toggle="collapse"
                             data-mdb-target="#panelsStayOpen-collapseFour" aria-expanded="false"
                             aria-controls="panelsStayOpen-collapseFour">
-                            Accordion Item #4
+                            ‌DO YOU TEACH BOYS?
                         </button>
                     </h2>
                     <div id="panelsStayOpen-collapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour">
                         <div className="accordion-body">
-                            <strong>This is the third item's accordion body.</strong> It is hidden by default,
-                            until the collapse plugin adds the appropriate classNamees that we use to style each
-                            element. These classNamees control the overall appearance, as well as the showing and
-                            hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-                            our default variables. It's also worth noting that just about any HTML can go within
-                            the <code>.accordion-body</code>, though the transition does limit overflow.
+                            <p>Yes, boys up to age 12.</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="accordion-item">
+                    <h2 className="accordion-header" id="headingFive">
+                        <button className="accordion-button text-warning collapsed" type="button" data-mdb-toggle="collapse"
+                            data-mdb-target="#panelsStayOpen-collapseFive" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFive">
+                            WHAT'S THE PAYMENT PLAN?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseFive" className="accordion-collapse collapse" aria-labelledby="headingFive">
+                        <div className="accordion-body">
+                            <p>Payments are usually received before commencement of the Classes. A free trial is considerable. Special payment plans can be discussed. Payment reminders will be sent once payment is due.</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="accordion-item">
+                    <h2 className="accordion-header" id="headingSix">
+                        <button className="accordion-button text-warning collapsed" type="button" data-mdb-toggle="collapse"
+                            data-mdb-target="#panelsStayOpen-collapseSix" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseSix">
+                            ‌WHAT HAPPENS WHEN MY COURSE ENDS?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseSix" className="accordion-collapse collapse" aria-labelledby="headingSix">
+                        <div className="accordion-body">
+                            <p>Students who like to learn more can advance to the next level, there are different levels available. Once a student is done with one, she can choose to move to the next.</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="accordion-item">
+                    <h2 className="accordion-header" id="headingSeven">
+                        <button className="accordion-button text-warning collapsed" type="button" data-mdb-toggle="collapse"
+                            data-mdb-target="#panelsStayOpen-collapseSeven" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseSeven">
+                            ‌WHAT HAPPENS IF I'M LATE WITH PAYMENT?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseSix" className="accordion-collapse collapse" aria-labelledby="headingSeven">
+                        <div className="accordion-body">
+                            <p>We encourage you to let us know in advance to avoid paying an extra charge for the late week. </p>
+                        </div>
+                    </div>
+                </div>
+                <div className="accordion-item">
+                    <h2 className="accordion-header" id="headingEight">
+                        <button className="accordion-button text-warning collapsed" type="button" data-mdb-toggle="collapse"
+                            data-mdb-target="#panelsStayOpen-collapseEight" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseEight">
+                            DO YOU OFFER REFUNDS?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseSix" className="accordion-collapse collapse" aria-labelledby="headingEight">
+                        <div className="accordion-body">
+                            <p>No. This depends on the circumstance.  We encourage you to clarify and  contact us before making payments. </p>
                         </div>
                     </div>
                 </div>

@@ -3,10 +3,10 @@ import React from 'react'
 const Staffs = () => {
     return (
         <>
-            <div className='container p-3'>
+            <div className='container p-3 mt-3'>
                 <div className='mb-3'>
                     <h3 className='text-warning text-center'>Meet Our Teachers</h3>
-                    <p className='text-center w-50 m-auto'>There is a moment in the life of any aspiring astronomer that it is time to buy that first telescope. It’s exciting to think about setting up your own viewing station.</p>
+                    <p className='text-center w-50 m-auto' style={{ fontSize: "12px" }}>There is a moment in the life of any aspiring astronomer that it is time to buy that first telescope. It’s exciting to think about setting up your own viewing station.</p>
                 </div>
                 <div className="d-flex justify-content-evenly p-4 staff">
                     <div>

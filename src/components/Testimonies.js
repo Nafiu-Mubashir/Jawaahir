@@ -3,7 +3,7 @@ import React from 'react'
 function Testimonies() {
     return (
         <>
-            <div className="container p-3">
+            <div className="container p-3 mt-3">
                 <div className='w-50 m-auto'>
                     <h4 className="text-warning text-center">Remarks</h4>
                     <p className='text-center' style={{ fontSize: "12px" }}>There is a moment in the life of any aspiring astronomer that it is time to buy that first telescope. It’s exciting to think about setting up your own viewing station.</p>
@@ -94,6 +94,13 @@ function Testimonies() {
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         {/* <span class="visually-hidden">Next</span> */}
                     </button>
+                </div>
+            </div>
+            <div className='students p-5'>
+                <div className='mt-5'>
+                    <h3 className='text-white text-center'>BECOME A STUDENT</h3>
+                    <p className='text-white text-center w-50 m-auto mb-3'>There is a moment in the life of any aspiring astronomer that it is time to buy that first telescope. It’s exciting to think about setting up your own viewing station whether that is on the deck</p>
+                    <button className='btn btn-outline-warning d-block m-auto'>Apply to be a student</button>
                 </div>
             </div>
         </>
