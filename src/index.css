@@ -54,6 +54,21 @@ nav {
   background-repeat: no-repeat;
   background-position: center;
 }
+.courses{
+  font-size: 14px;
+}
+.courses .card{
+  cursor: pointer;
+}
+/* .courses .card:hover{
+  -webkit-transition: background 2.4s 0s ease;
+-moz-transition: background 2.4s 0s ease;
+-o-transition: background 2.4s 0s ease;
+transition: background 2.4s 0s ease;
+} */
+.courses .card p{
+  font-size: 12px;
+}
 
 @media (max-width: 687px) {
   #first {
