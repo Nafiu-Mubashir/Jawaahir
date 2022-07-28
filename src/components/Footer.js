@@ -12,10 +12,10 @@ function Footer() {
               <span>Get connected with us on social networks:</span>
             </div>
             <div>
-              <a href="" className="me-4 text-reset">
+              <a href="https://www.instagram.com/invites/contact/?i=gvj64agdc00a&utm_content=o3ihs7" target="blank" className="me-4 text-reset">
                 <i className="fab fa-instagram"></i>
               </a>
-              <a href="" className="me-4 text-reset">
+              <a href="https://cutt.ly/BHeYT4o" target="blank" className="me-4 text-reset">
                 <i className="fab fa-whatsapp"></i>
               </a>
               <a href="" className="me-4 text-reset">
@@ -24,12 +24,6 @@ function Footer() {
               <a href="" className="me-4 text-reset">
                 <i className="fab fa-twitter"></i>
               </a>
-              {/* <a href="" className="me-4 text-reset">
-                <i className="fab fa-linkedin"></i>
-              </a>
-              <a href="" className="me-4 text-reset">
-                <i className="fab fa-github"></i>
-              </a> */}
             </div>
           </div>
         </section>
@@ -38,36 +32,36 @@ function Footer() {
             <div className="row mt-3">
               <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                 <h6 className="text-uppercase fw-bold mb-4">
-                  <img src={logo} alt="JAWAAHIR" style={{ width: "40px"}}/>
+                  <img src={logo} alt="JAWAAHIR" style={{ width: "40px" }} />
                 </h6>
                 <p>
-                  Here you can use rows and columns to organize your footer content. Lorem ipsum
-                  dolor sit amet, consectetur adipisicing elit.
+                Jawaahir Qur'an Academy. An Online Qur'an and Tajweed School for Women and children  to learn how to read, recite and memorize the Qur'an.
                 </p>
               </div>
               <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
                 <h6 className="text-uppercase fw-bold mb-4">
-                  Products
+                  Courses
                 </h6>
                 <p>
-                  <a href="#!" className="text-reset">Angular</a>
+                  <a href="/courses" className="text-reset">Quran</a>
                 </p>
                 <p>
-                  <a href="#!" className="text-reset">React</a>
+                  <a href="/courses" className="text-reset">Hadeeth</a>
                 </p>
                 <p>
-                  <a href="#!" className="text-reset">Vue</a>
+                  <a href="/courses" className="text-reset">Tajweed</a>
                 </p>
                 <p>
-                  <a href="#!" className="text-reset">Laravel</a>
+                  <a href="/courses" className="text-reset">Arabiyyah</a>
                 </p>
               </div>
               <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
                 <h6 className="text-uppercase fw-bold mb-4">
-                  Useful links
+                  Sponsor A child
                 </h6>
                 <p>
-                  <a href="#!" className="text-reset">Pricing</a>
+                  Sponsor a child by reaching out to us thhrough this link <a href="http://" target="_blank" rel="noopener noreferrer" className='text-muted'>click here</a>
+                  {/* <a href="#!" className="text-reset">Pricing</a>
                 </p>
                 <p>
                   <a href="#!" className="text-reset">Settings</a>
@@ -76,20 +70,20 @@ function Footer() {
                   <a href="#!" className="text-reset">Orders</a>
                 </p>
                 <p>
-                  <a href="#!" className="text-reset">Help</a>
+                  <a href="#!" className="text-reset">Help</a> */}
                 </p>
               </div>
               <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                 <h6 className="text-uppercase fw-bold mb-4">
                   Contact
                 </h6>
-                <p><i className="fas fa-home me-3"></i> New York, NY 10012, US</p>
+                <p><i className="fas fa-home me-3"></i> Nigeria</p>
                 <p>
                   <i className="fas fa-envelope me-3"></i>
                   jawaahir@gmail.com
                 </p>
-                <p><i className="fas fa-phone me-3"></i> + 01 234 567 88</p>
-                <p><i className="fas fa-print me-3"></i> + 01 234 567 89</p>
+                <p><i className="fas fa-phone me-3"></i> +234 811 386 7016</p>
+                <p><i className="fab fa-whatsapp me-3"></i> +234 811 386 7016</p>
               </div>
             </div>
           </div>

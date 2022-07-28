@@ -69,6 +69,16 @@ transition: background 2.4s 0s ease;
 .courses .card p{
   font-size: 12px;
 }
+footer a, i, p{
+  cursor: pointer;
+}
+footer a:hover, i:hover{
+  color: #CF8116 !important;
+}
+/* .q{
+  
+  height: 120px;
+} */
 
 @media (max-width: 687px) {
   #first {

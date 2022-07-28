@@ -1,12 +1,16 @@
-import React from 'react'
+import React from 'react';
+import quran from '../assests/img/quran.webp';
+import hadith from '../assests/img/hadith.jfif';
+import tajweeed from '../assests/img/tajweed.png';
+import arrobiyyah from '../assests/img/arobiyyah.jpg';
 
 function Objectives() {
     return (
         <>
-            <div className="continer p-3 objmt-3">
+            <div className="container p-3 mt-4">
                 <div className='w-50 m-auto'>
                     <h4 className="text-warning text-center">Our Puropose</h4>
-                    <p className="text-center" style={{ fontSize: "12px" }}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo illum praesentium ab ipsam molestiae vitae deleniti quis optio, accusamus itaque.</p>
+                    <p className="text-center" style={{ fontSize: "12px" }}>There is a moment in the life of any aspiring astronomer that it is time to buy that first telescope. It’s exciting to think about setting up your own viewing station.</p>
                 </div>
                 <div className="row w-75 m-auto g-0">
                     <div className="col-md-4 m-auto">
@@ -28,37 +32,45 @@ function Objectives() {
                 </div>
             </div>
 
-            <div className="container p-3 obj mt-3">
+            <div className="container p-3 obj mt-5">
                 <div className='mb-3'>
                     <h4 className='text-warning text-center'>Our Courses</h4>
-                    <p className='text-center w-50 m-auto' style={{ fontSize: "12px" }}>There is a moment in the life of any aspiring astronomer that it is time to buy that first telescope. It’s exciting to think about setting up your own viewing station.</p>
+                    <p className='text-center w-50 m-auto' style={{ fontSize: "12px" }}>These are the set of courses offered at Jawaahir</p>
                 </div>
                 <div className="row p-2 m-auto">
                     <div className="col-md-3">
                         <div className="card shadow">
                             <div className="card-body p-3">
-                                <p className='text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quam corrupti, beatae eos impedit nobis iusto ea aperiam possimus nostrum, voluptatibus harum consequuntur? Amet laboriosam provident error? Tempore, cupiditate vitae!</p>
+                                <img src={quran} className='rounded-circle d-block m-auto shadow-1-strong mb-3' alt="avatar"
+                                style={{ width: "120px", height: "120px"}}  />
+                                <p className='text-center fw-bold'>Quran Memorization/Murojaah</p>
                             </div>
                         </div>
                     </div>
                     <div className="col-md-3">
                         <div className="card shadow">
                             <div className="card-body p-3">
-                                <p className='text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quam corrupti, beatae eos impedit nobis iusto ea aperiam possimus nostrum, voluptatibus harum consequuntur? Amet laboriosam provident error? Tempore, cupiditate vitae!</p>
+                            <img src={hadith} className='rounded-circle d-block m-auto shadow-1-strong mb-3' alt="avatar"
+                                style={{ width: "120px", height: "120px"}}  />
+                                <p className='text-center fw-bold'>Hadeeth</p>
                             </div>
                         </div>
                     </div>
                     <div className="col-md-3">
                         <div className="card shadow">
                             <div className="card-body p-3">
-                                <p className='text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quam corrupti, beatae eos impedit nobis iusto ea aperiam possimus nostrum, voluptatibus harum consequuntur? Amet laboriosam provident error? Tempore, cupiditate vitae!</p>
+                            <img src={tajweeed} className='rounded-circle d-block m-auto shadow-1-strong mb-3' alt="avatar"
+                                style={{ width: "120px", height: "120px"}}  />
+                                <p className='text-center fw-bold'>Tajweed</p>
                             </div>
                         </div>
                     </div>
                     <div className="col-md-3">
                         <div className="card shadow">
                             <div className="card-body p-3">
-                                <p className='text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quam corrupti, beatae eos impedit nobis iusto ea aperiam possimus nostrum, voluptatibus harum consequuntur? Amet laboriosam provident error? Tempore, cupiditate vitae!</p>
+                            <img src={arrobiyyah} className='rounded-circle d-block m-auto shadow-1-strong mb-3' alt="avatar"
+                                style={{ width: "120px", height: "120px"}}  />
+                                <p className='text-center fw-bold'>Arabiyyah</p>
                             </div>
                         </div>
                     </div>

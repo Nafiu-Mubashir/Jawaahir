@@ -36,17 +36,17 @@ const Contact = () => {
                                                 
                                                 <div className="form-outline mb-3">
                                                     <input type="text" id="form2Example17" className="form-control form-control-lg border-bottom" />
-                                                    <label className="form-label text-white" for="form2Example17">Fullname</label>
+                                                    <label className="form-label text-white">Fullname</label>
                                                 </div>
 
                                                 <div className="form-outline mb-3">
                                                     <input type="email" id="form2Example17" className="form-control form-control-lg border-bottom" />
-                                                    <label className="form-label text-white" for="form2Example17">Email address</label>
+                                                    <label className="form-label text-white">Email address</label>
                                                 </div>
 
                                                 <div className="form-outline mb-3">
                                                     <input type="text" id="form2Example17" className="form-control form-control-lg border-bottom" />
-                                                    <label className="form-label text-white" for="form2Example17">Subject</label>
+                                                    <label className="form-label text-white">Subject</label>
                                                 </div>
 
                                                 <div className="form-outline mb-3">

@@ -3,7 +3,7 @@ import React from 'react'
 function Testimonies() {
     return (
         <>
-            <div className="container p-3 mt-3">
+            <div className="container p-3 mt-5">
                 <div className='w-50 m-auto'>
                     <h4 className="text-warning text-center">Remarks</h4>
                     <p className='text-center' style={{ fontSize: "12px" }}>There is a moment in the life of any aspiring astronomer that it is time to buy that first telescope. It’s exciting to think about setting up your own viewing station.</p>
@@ -96,11 +96,39 @@ function Testimonies() {
                     </button>
                 </div>
             </div>
-            <div className='students p-5'>
+            <div className='students p-5 mt-4'>
                 <div className='mt-5'>
-                    <h3 className='text-white text-center'>BECOME A STUDENT</h3>
-                    <p className='text-white text-center w-50 m-auto mb-3'>There is a moment in the life of any aspiring astronomer that it is time to buy that first telescope. It’s exciting to think about setting up your own viewing station whether that is on the deck</p>
-                    <button className='btn btn-outline-warning d-block m-auto'>Apply to be a student</button>
+                    <h3 className='text-white text-center mb-4'>BECOME A STUDENT</h3>
+                    <p className='text-white text-center w-50 m-auto mb-4'>There is a moment in the life of any aspiring astronomer that it is time to buy that first telescope. It’s exciting to think about setting up your own viewing station whether that is on the deck</p>
+                    <button className='btn btn-outline-warning d-block m-auto mb-' data-mdb-toggle="modal" data-mdb-target="#exampleModal">Apply to be a student</button>
+                </div>
+            </div>
+
+            {/* <button type="button" className="btn btn-primary" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+                Launch demo modal
+            </button> */}
+            <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div className="modal-dialog modal-dialog-centered">
+                    <div className="modal-content bg-dark text-light">
+                        <div className="modal-header">
+                            <h6 className="modal-title" id="exampleModalLabel">Register Here</h6>
+                            <button type="button" class="btn-close btn-white" data-mdb-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div className="modal-body p-5">
+                            <div className="container">
+                                <div className='mb-3'>
+                                    <p>To register for kids <a href="https://my.forms.app/form/62d979826535fb624aea12cd" target='blank' className='text-warning'>click here</a></p>
+                                </div>
+                                <div className='mb-3'>
+                                    <p>To register for adult <a href="https://my.forms.app/form/5ee4a057b81c7e35cb551c23" target='blank' className='text-warning'>click here</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        {/* <div className="modal-footer">
+                            <button type="button" className="btn btn-secondary" data-mdb-dismiss="modal">Close</button>
+                            <button type="button" className="btn btn-primary">Save changes</button>
+                        </div> */}
+                    </div>
                 </div>
             </div>
         </>
