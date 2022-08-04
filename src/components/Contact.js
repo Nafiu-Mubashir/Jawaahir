@@ -19,12 +19,12 @@ const Contact = () => {
             message: "",
         },
     onSubmit: async(values) => {
-        // await emailjs.send("service_jkzltlr", "template_2j4cya9", values, "u9pVSg4WmaQm-ZK0i")
-        // .catch((result) => {
-        //     console.log(result.text);
-        // },(error) => {
-        //     console.log(error.text);
-        // });
+        await emailjs.send("service_jkzltlr", "template_2j4cya9", values, "u9pVSg4WmaQm-ZK0i")
+        .catch((result) => {
+            console.log(result.text);
+        },(error) => {
+            console.log(error.text);
+        });
         formik.resetForm();
     },
         validationSchema: yup.object({
