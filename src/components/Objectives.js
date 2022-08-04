@@ -7,6 +7,7 @@ import arrobiyyah from '../assests/img/arobiyyah.jpg';
 function Objectives() {
     return (
         <>
+        {/* {09138966978} */}
             <div className="container p-3 mt-4">
                 <div className='w-50 m-auto'>
                     <h4 className="text-warning text-center">Our Puropose</h4>

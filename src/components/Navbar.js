@@ -48,7 +48,7 @@ function Navbar() {
                 </div>
             </nav>
 
-            <a href="#" data-activates="slide-out" className="btn btn-primary p-3 button-collapse"><i className="fas fa-bars"></i></a>
+            {/* <a href="#" data-activates="slide-out" className="btn btn-primary p-3 button-collapse"><i className="fas fa-bars"></i></a> */}
     
         </>
     )
